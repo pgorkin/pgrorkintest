@@ -1,20 +1,19 @@
-package failslinter
+package documented
 
-func PublicMethodDoesNothingggg() {
+// PublicMethodDoesNothing just to check linting
+func PublicMethodDoesNothing() {
 
 }
 
-//type privateStruct struct {
-//	privateOne string
-//	privateTwo string
-//}
+type privateStruct struct {
+	privateOne string
+	privateTwo string
+}
 
-type PublicStructttt struct {
+// PublicStructt balbla
+type PublicStruct struct {
+	// PublicOne 1
 	PublicOne string
+	// PublicTwo 2
 	PublicTwo string
-}
-
-
-func PublicMethodDoesNothingggg2() {
-
 }
