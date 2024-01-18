@@ -5,6 +5,14 @@ linters:
     - gofmt
     - govet
     - revive
+
+linters-settings:
+  revive:
+    rules:
+      # Consider missing comments as an error
+      - name: exported
+        severity: error
+
 issues:
   include:
      - EXC0012  # Fail if exported entities do not have comments
