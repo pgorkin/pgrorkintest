@@ -1,0 +1,10 @@
+linters:
+  # Enable specific linter
+  # https://golangci-lint.run/usage/linters/
+  enable:
+    - gofmt
+    - govet
+    - revive
+issues:
+  include:
+     - EXC0012  # Fail if exported entities do not have comments
