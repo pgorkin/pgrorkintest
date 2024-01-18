@@ -13,3 +13,8 @@ type PublicStructttt struct {
 	PublicOne string
 	PublicTwo string
 }
+
+
+func PublicMethodDoesNothingggg2() {
+
+}
