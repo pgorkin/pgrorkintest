@@ -5,7 +5,6 @@ linters:
     - gofmt
     - govet
     - revive
-
 linters-settings:
   revive:
     rules:
@@ -20,3 +19,4 @@ issues:
      - EXC0012 # exported (.+) should have comment or be unexported
      - EXC0013 # package comment should be of the form "(.+)...
      - EXC0014 # comment on exported (.+) should be of the form "(.+)..."
+     - EXC0015 # should have a package comment
