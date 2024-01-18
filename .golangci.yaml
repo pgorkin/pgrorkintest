@@ -12,7 +12,9 @@ linters-settings:
       # Consider missing comments as an error
       - name: exported
         severity: error
-
+      # Validate package comments
+      - name: package-comments
+        severity: error
 issues:
   include:
      - EXC0012  # Fail if exported entities do not have comments
